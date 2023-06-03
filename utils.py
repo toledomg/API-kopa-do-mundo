@@ -23,3 +23,5 @@ def data_processing(data: dict):
 
     if data["titles"] > all_cup_interval:
         raise ImpossibleTitlesError("impossible to have more titles than disputed cups")
+
+    ...
