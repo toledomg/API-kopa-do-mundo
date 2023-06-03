@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python
 
+.github
+github
+workflows
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -174,7 +177,7 @@ poetry.toml
 pyrightconfig.json
 
 ### VisualStudioCode ###
-.vscode
+vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
